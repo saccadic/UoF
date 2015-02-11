@@ -1,0 +1,2 @@
+# UoF
+UnityからopenFrameworksをコントロール＆出力映像をテクスチャとして読み込む
