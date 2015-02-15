@@ -10,7 +10,7 @@ void ofApp::setup(){
 	inputOfImg.allocate(320, 240);
 
     screen.setup("127.0.0.1",8080);
-    screen.setOptions(800,800,70);
+    screen.setOptions(512,512,70);
     screen.start();
 
 	//screen.get();

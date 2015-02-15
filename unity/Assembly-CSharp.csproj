@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}</ProjectGuid>
+	<ProjectGuid>{C3DA89E1-70C6-7D6C-993E-C8F831D35880}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -49,16 +49,17 @@
      <Compile Include="Assets\UoF\UoF.cs" />
      <Compile Include="Assets\UoF\UoF_client.cs" />
      <Compile Include="Assets\UoF\UoF_server.cs" />
-     <Compile Include="Assets\UoF_OscServer\make_box.cs" />
      <Compile Include="Assets\UoF_OscServer\scripts\Osc.cs" />
      <Compile Include="Assets\UoF_OscServer\scripts\UoF_OscServer.cs" />
+     <Compile Include="Assets\UoF_OscServer\scripts\make_box.cs" />
+     <Compile Include="Assets\UoF_OscServer\scripts\rotate.cs" />
+     <Compile Include="Assets\UoF_OscServer\scripts\uGUI_oFTextuer.cs" />
      <Compile Include="Assets\array.cs" />
-     <Compile Include="Assets\rotate.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>G:/GitHub/UoF/Unity/Assets/plugins/websocket-sharp.dll</HintPath>
+ <HintPath>G:/GitHub/UoF-dev/unity/Assets/plugins/websocket-sharp.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

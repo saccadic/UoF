@@ -48,7 +48,7 @@ void ofxTransmitScreen::send(){
 		//optimization image
 		tmpBuffer.clone(ScreenBuffer);
 		tmpBuffer.resize(width,height);
-		tmpBuffer.rotate90(2);	//Unityではテクスチャが上下反転するための対策
+		//tmpBuffer.rotate90(2);	//Unityではテクスチャが上下反転するための対策
 
 		//Makeing Jpg binary
 		compressed = turbo.compress(tmpBuffer,quality,&size);

@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{164A416E-423A-6066-5BD1-6E559E316DD4}</ProjectGuid>
+    <ProjectGuid>{FA83E9A0-6CB8-4BD9-107D-9FEF8E3A19A5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace></RootNamespace>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,11 +60,12 @@
     <Compile Include="Assets\UoF\UoF.cs" />
     <Compile Include="Assets\UoF\UoF_client.cs" />
     <Compile Include="Assets\UoF\UoF_server.cs" />
-    <Compile Include="Assets\UoF_OscServer\make_box.cs" />
     <Compile Include="Assets\UoF_OscServer\scripts\Osc.cs" />
     <Compile Include="Assets\UoF_OscServer\scripts\UoF_OscServer.cs" />
+    <Compile Include="Assets\UoF_OscServer\scripts\make_box.cs" />
+    <Compile Include="Assets\UoF_OscServer\scripts\rotate.cs" />
+    <Compile Include="Assets\UoF_OscServer\scripts\uGUI_oFTextuer.cs" />
     <Compile Include="Assets\array.cs" />
-    <Compile Include="Assets\rotate.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

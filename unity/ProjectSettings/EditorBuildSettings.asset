@@ -6,4 +6,4 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/UoF_OscServer/scenes/osc.unity
+    path: Assets/UoF_OscServer/scenes/ManyDisplay.unity
