@@ -1,0 +1,5 @@
+ofxOpenCv
+ofxOsc
+ofxCv
+ofxTransmitScreen
+ofxTurboJpeg
